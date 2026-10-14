@@ -1,0 +1,35 @@
+# --- 本地凭据与私密配置（绝不该进仓库）---
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+secrets.*
+
+# --- 依赖与构建产物 ---
+node_modules/
+dist/
+build/
+out/
+*.egg-info/
+__pycache__/
+*.pyc
+target/
+vendor/
+
+# --- 日志与临时文件 ---
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- 编辑器 / IDE ---
+.vscode/
+.idea/
+*.swp
